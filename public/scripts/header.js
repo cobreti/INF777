@@ -23,6 +23,7 @@
                 elm.attr('href', href);
 
                 if (href == window.location) {
+                    elm.addClass('active');
                     console.log('current menu item should be ' + element);
                 }
             });

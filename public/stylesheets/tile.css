@@ -1,0 +1,24 @@
+.tile {
+
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    min-height: 200px;
+    min-width: 200px;
+    background: #e2e7f4;
+    border-radius: 15px;
+}
+
+.tile .text {
+
+    color: #486e90;
+}
+
+.tile .text-alt {
+
+    color: #363d43;
+}

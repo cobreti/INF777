@@ -26,10 +26,6 @@
     position: absolute;
     display: inline-block;
     top: 5px;
-    left: 50%;
-    transform: translate(-50%, 0);
-    -webkit-transform: translate(-50%, 0);
-    -moz-transform: translate(-50%, 0);
     color: #363d43;
     font-family: 'Montserrat', sans-serif;
     font-size: 36px;
@@ -45,36 +41,41 @@
     bottom: 0;
     margin: 0;
     padding: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
-    -webkit-transform: translate(-50%, 0);
-    -moz-transform: translate(-50%, 0);
 }
 
 .header-body ul li {
 
     position: relative;
     display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     cursor: pointer;
     color: #000000;
+    margin-bottom: 10px;
 }
 
 .header-body ul li a {
+
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     cursor: pointer;
     color: #000000;
     text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .header-body ul li a:hover {
     text-shadow: 0 0 5px blue;
+}
+
+.header-body ul li .active {
+
+    background: #363d44;
+    color: #F1F1F1;
+    border-radius: 10px 10px 0 0;
 }
 
 .header-body .contact-info {
