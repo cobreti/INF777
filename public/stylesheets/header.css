@@ -17,6 +17,8 @@
     top: 5px;
     left: 50%;
     transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
     color: #363d43;
     font-family: 'Montserrat', sans-serif;
     font-size: 36px;
@@ -34,6 +36,8 @@
     padding: 0;
     left: 50%;
     transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
 }
 
 .header-body ul li {
@@ -50,6 +54,17 @@
     color: #000000;
 }
 
+.header-body ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    color: #000000;
+    text-decoration: none;
+}
+
+.header-body ul li a:hover {
+    text-shadow: 0 0 5px blue;
+}
 
 .header-body .contact-info {
 
