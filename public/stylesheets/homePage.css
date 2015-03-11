@@ -4,6 +4,17 @@
     height: 200px;
 }
 
+.map-tile .map {
+
+    position: absolute;
+    display: block;
+    left: 20px;
+    top: 20px;
+    bottom: 20px;
+    width: 300px;
+    /*border: 1px solid black;*/
+}
+
 .map-tile .address {
 
     position: relative;
