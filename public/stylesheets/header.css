@@ -5,7 +5,7 @@
     display: block;
     top: 0;
     left: 0;
-    min-width: 1024px;
+    min-width: 875px;
     width: 100%;
     height: 100%;
 }
@@ -31,6 +31,21 @@
     font-size: 36px;
     font-weight: bold;
     cursor: default;
+}
+
+@media screen and (min-width: 1024px ) {
+    .header-body .hpos {
+        left: 50%;
+        transform: translate(-50%, 0);
+        -webkit-transform: translate(-50%, 0);
+        -moz-transform: translate(-50%, 0);
+    }
+}
+
+@media screen and (max-width: 1024px ) {
+    .header-body .hpos {
+        right: 300px;
+    }
 }
 
 
@@ -105,4 +120,9 @@
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #000000;
+}
+
+.header-body .logo img {
+
+    cursor: pointer;
 }
