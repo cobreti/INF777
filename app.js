@@ -16,7 +16,16 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+
+
+
+app.use(express.static(path.join(__dirname, 'public'), {
+    extensions: ['html', 'htm'],
+    setHeaders: function(res, path, stat) {
+        res.set({'content-type': 'text/html; charset='});
+    }
+}));
+
 
 app.use('/', routes);
 app.use('/users', users);
