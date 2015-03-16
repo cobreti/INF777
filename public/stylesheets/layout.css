@@ -17,7 +17,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    overflow: hidden;
+    overflow-x: hidden;
     background: #363d44;
     padding: 12px;
 }
