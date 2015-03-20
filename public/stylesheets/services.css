@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.services-tile {
+	width: 620px;
+}
+
+.service-block {
+	position: absolute;
+	right: 10px;
+	left:130px;
+	top: 10px;
+	bottom:10px;
+	// width: 400px;
+	//height: 100px;
+	border: 1px solid black;
+}
+	
+
+.service-name {
+	position: relative;
+	width: 100%;
+	height: 30px;
+	border: 1px solid black;
+}
+
+.service-name h2 {
+	margin: 0;
+}
+
+.service-image {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	bottom:10px;
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+}
+
+.service-description {
+	position: relative;
+	width: 100%;
+	border: 1px solid black;
+}
+
+
+	
