@@ -11,7 +11,7 @@
             dept--;
         }
 
-        $('.header-location').load(subPath + 'header.html', function () {
+        $('.header-location').load(subPath + '/fragments/header.html', function () {
             console.log('done loading');
 
             var menuLinks = $('.header-location a');
@@ -28,7 +28,7 @@
                 }
             });
 
-            var srcPath = subPath + 'images/logo.gif';
+            var srcPath = window.location.origin + '/images/logo.gif';
 
             var logo = $('.header-location .logo img');
             logo.attr('src', srcPath);
