@@ -14,6 +14,12 @@
         $('.header-location').load(subPath + '/fragments/header.html', function () {
             console.log('done loading');
 
+            //$('.header-body').width(100);
+
+            //
+            // update menu links
+            //
+
             var menuLinks = $('.header-location a');
             menuLinks.each(function (idx, element) {
 
@@ -27,6 +33,10 @@
                     console.log('current menu item should be ' + element);
                 }
             });
+
+            //
+            // update logo
+            //
 
             var srcPath = window.location.origin + '/images/logo.gif';
 

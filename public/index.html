@@ -2,6 +2,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+        <meta name="viewport" content="device-width, initial-scale=1, user-scalable=1" />
 
         <title>Clinique Médicale Angus</title>
 
@@ -18,14 +19,15 @@
     <body>
         <div class="header-location"></div>
         <div class="body-location">
-            <div class="tile map-tile">
+            <div class="extended-tile-left map-tile">
                 <div class="map">
-                    <iframe width="300"
-                            height="160"
+                    <iframe id="google-map"
                             src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCFxrfOI16P5XfsCnpZUAUb16ydFlvFq6U
                             &q=4101+Molson+Montreal+H1Y3L1
                             &attribution_source=Google+Maps+Embed+API"></iframe>
                 </div>
+            </div>
+            <div class="extended-tile-right map-tile">
                 <div class="address vert-center text">
                     <p>4101 rue Molson, suite 101</p>
                     <p>Montréal (Québec)</p>
@@ -42,14 +44,18 @@
                     <p>Chronométriq</p>
                 </div>
             </div>
-            <div class="tile schedule-tile">
+            <div class="extended-tile-left schedule-tile">
                 <div class="content middle-center text">
                     <p>Horaire</p>
                 </div>
+            </div>
+            <div class="extended-tile-right schedule-tile">
+
             </div>
         </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script type="text/javascript" src="scripts/header.js"></script>
+        <script type="text/javascript" src="scripts/homePage.js"></script>
     </body>
  </html>

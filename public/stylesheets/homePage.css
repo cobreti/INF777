@@ -1,6 +1,6 @@
 .map-tile {
 
-    width: 625px;
+    /*width: 625px;*/
     height: 200px;
 }
 
@@ -10,8 +10,9 @@
     display: block;
     left: 20px;
     top: 20px;
+    right: 20px;
     bottom: 20px;
-    width: 300px;
+    /*width: 300px;*/
     /*border: 1px solid black;*/
 }
 
@@ -20,8 +21,8 @@
     position: relative;
     display: block;
     margin-right: 20px;
-    margin-left: auto;
-    width: 250px;
+    margin-left: 20px;
+    /*width: 250px;*/
 }
 
 .map-tile .address p {
@@ -31,11 +32,13 @@
     margin: 0 0 10px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    text-align: center;
 }
 
 
 .rendez-vous-tile {
 
+    /*position: absolute;*/
     width: 300px;
     height: 200px;
 }
@@ -54,6 +57,7 @@
 
 .chronometriq-tile {
 
+    /*position: absolute;*/
     width: 300px;
     height: 200px;
 }
@@ -72,14 +76,13 @@
 
 .schedule-tile {
 
-    width: 625px;
     height: 200px;
 }
 
 
 .schedule-tile .content {
 
-    position: relative;
+    position: absolute;
     display: block;
 
     width: 200px;

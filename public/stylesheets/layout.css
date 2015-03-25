@@ -25,6 +25,73 @@ body {
     background: #363d44;
     padding: 12px;
 	margin:auto;
+    min-width: 1024px;
+}
+
+
+/*
+    For iPad in portrait mode
+*/
+@media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (orientation: landscape) {
+
+    .body-location {
+        min-width: 0;
+    }
+}
+
+/*
+    For iPad in portrait mode
+*/
+@media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (orientation: portrait) {
+
+    .body-location {
+        min-width: 0;
+    }
+}
+
+
+/*
+    For iPhone in portrait mode
+*/
+@media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 568px)
+    and (orientation : portrait) {
+
+    .header-location {
+
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100px;
+        max-width: 320px;
+        overflow: hidden;
+    }
+
+    .body-location {
+
+        position: absolute;
+        display: none;
+        top: 100px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow-x: hidden;
+        background: #363d44;
+        padding: 12px;
+        margin:auto;
+        max-width: 300px;
+        min-width: 0;
+    }
+
 }
 
 

@@ -5,7 +5,7 @@
     display: block;
     top: 0;
     left: 0;
-    min-width: 875px;
+    min-width: 1024px;
     width: 100%;
     height: 100%;
 }
@@ -33,7 +33,7 @@
     cursor: default;
 }
 
-@media screen and (min-width: 1024px ) {
+@media screen and (min-width: 1025px ) {
     .header-body .hpos {
         left: 50%;
         transform: translate(-50%, 0);
@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 1024px ) {
     .header-body .hpos {
-        right: 300px;
+        right: 350px;
     }
 }
 
@@ -125,4 +125,166 @@
 .header-body .logo img {
 
     cursor: pointer;
+}
+
+/*
+    For iPad in portrait mode
+*/
+@media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (orientation: portrait) {
+
+    .header-body {
+        min-width: 0;
+    }
+
+    .header-body .logo {
+
+        position: absolute;
+        display: block;
+        top: 10px;
+        bottom: 10px;
+        left: 5px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .header-body .hpos {
+        right: 240px;
+    }
+
+    .header-body .title {
+
+        position: absolute;
+        display: inline-block;
+        top: 15px;
+        color: #363d43;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: default;
+    }
+
+    .header-body .contact-info {
+
+        position: absolute;
+        display: block;
+        right: 10px;
+        top: 30px;
+        bottom: 10px;
+    }
+
+    .header-body .contact-info p {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        cursor: default;
+        color: #000000;
+    }
+
+    .header-body .contact-info a {
+
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: #000000;
+    }
+}
+
+/*
+    For iPhone in portrait mode
+*/
+@media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 568px)
+    and (orientation : portrait) {
+
+    .header-body {
+
+        background: #a5bacd;
+        position: relative;
+        display: block;
+        margin: 0;
+        padding: 0;
+        top: 0;
+        left: 0;
+        min-width: 0;
+        max-width: 320px;
+        width: 320px;
+        height: 100%;
+    }
+
+    .header-body .logo {
+
+        position: absolute;
+        display: block;
+        top: 10px;
+        bottom: 10px;
+        left: 5px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .header-body .title {
+
+        position: absolute;
+        display: none;
+        top: 15px;
+        color: #363d43;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: default;
+    }
+
+    .header-body ul {
+
+        position: absolute;
+        display: none;
+        bottom: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-body .contact-info {
+
+        position: absolute;
+        display: block;
+        right: 0;
+        top: 0;
+        bottom: 10px;
+        left: 120px;
+        width: 100px;
+        width: 150px;
+        border: 1px solid black;
+    }
+
+    .header-body .contact-info p {
+        position: relative;
+        display: block;
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        cursor: default;
+        color: #000000;
+    }
+
+    .header-body .contact-info a {
+
+        display: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: #000000;
+    }
 }
