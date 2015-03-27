@@ -139,7 +139,9 @@
     }
 }
 
-
+/*
+    For iPhone in portrait mode
+*/
 @media only screen
     and (min-device-width : 320px)
     and (max-device-width : 568px)
@@ -152,7 +154,7 @@
         margin: 20px;
         min-height: 250px;
         min-width: 200px;
-        max-width: 100px;
+        max-width: 200px;
         background: #e2e7f4;
         border-radius: 15px;
     }
@@ -186,8 +188,55 @@
     }
 }
 
+/*
+    For normal PC assuming base resolution of 1366x768
+*/
+@media only screen
+    and (min-device-width : 1366px) {
 
-    .tile .text {
+    .tile {
+        position: relative;
+        display: inline-block;
+        float: left;
+        margin: 20px;
+        min-height: 250px;
+        min-width: 300px;
+        max-width: 650px;
+        background: #e2e7f4;
+        border-radius: 15px;
+    }
+
+    .extended-tile-left {
+
+        position: relative;
+        display: inline-block;
+        float: left;
+        margin: 20px;
+        margin-right: 0;
+        min-height: 250px;
+        min-width: 300px;
+        max-width: 300px;
+        background: #e2e7f4;
+        border-radius: 15px 0 0 15px;
+    }
+
+    .extended-tile-right {
+
+        position: relative;
+        display: inline-block;
+        float: left;
+        margin: 20px;
+        margin-left: -1px;
+        min-height: 250px;
+        min-width: 300px;
+        max-width: 300px;
+        background: #e2e7f4;
+        border-radius: 0 15px 15px 0;
+    }
+}
+
+
+.tile .text {
 
     color: #486e90;
 }
