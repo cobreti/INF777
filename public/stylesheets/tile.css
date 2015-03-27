@@ -1,47 +1,27 @@
 
 .tile {
-
     position: relative;
     display: inline-block;
     float: left;
-    margin-top: 12px;
-    margin-left: 12px;
-    margin-bottom: 12px;
-    margin-right: 12px;
-    min-height: 250px;
-    min-width: 450px;
+    margin: 20px;
+    min-height: 300px;
+    min-width: 620px;
+    max-width: 620px;
     background: #e2e7f4;
     border-radius: 15px;
 }
 
-.extended-tile-left {
+.tile-small {
 
     position: relative;
     display: inline-block;
     float: left;
-    margin-top: 12px;
-    margin-left: 12px;
-    margin-bottom: 12px;
-    /*margin-right: 12px;*/
-    min-height: 250px;
-    min-width: 462px;
+    margin: 20px;
+    min-height: 300px;
+    min-width: 290px;
+    max-width: 290px;
     background: #e2e7f4;
-    border-radius: 15px 0 0 15px;
-}
-
-.extended-tile-right {
-
-    position: relative;
-    display: inline-block;
-    float: left;
-    margin-top: 12px;
-    margin-left: -1px;
-    margin-bottom: 12px;
-    margin-right: 12px;
-    min-height: 250px;
-    min-width: 462px;
-    background: #e2e7f4;
-    border-radius: 0 15px 15px 0;
+    border-radius: 15px;
 }
 
 
@@ -59,36 +39,21 @@
         display: inline-block;
         float: left;
         margin: 20px;
-        min-height: 250px;
-        min-width: 450px;
+        min-height: 300px;
+        min-width: 940px;
         background: #e2e7f4;
         border-radius: 15px;
     }
 
-    .extended-tile-left {
-
+    .tile-small {
         position: relative;
         display: inline-block;
         float: left;
         margin: 20px;
-        margin-right: 0;
-        min-height: 250px;
-        min-width: 470px;
+        min-height: 300px;
+        min-width: 450px;
         background: #e2e7f4;
-        border-radius: 15px 0 0 15px;
-    }
-
-    .extended-tile-right {
-
-        position: relative;
-        display: inline-block;
-        float: left;
-        margin: 20px;
-        margin-left: -1px;
-        min-height: 250px;
-        min-width: 470px;
-        background: #e2e7f4;
-        border-radius: 0 15px 15px 0;
+        border-radius: 15px;
     }
 }
 
@@ -106,134 +71,56 @@
         display: inline-block;
         float: left;
         margin: 20px;
-        min-height: 250px;
+        min-height: 300px;
+        min-width: 700px;
+        background: #e2e7f4;
+        border-radius: 15px;
+    }
+
+    .tile-small {
+        position: relative;
+        display: inline-block;
+        float: left;
+        margin: 20px;
+        min-height: 300px;
         min-width: 330px;
         background: #e2e7f4;
         border-radius: 15px;
     }
-
-    .extended-tile-left {
-
-        position: relative;
-        display: inline-block;
-        float: left;
-        margin: 20px;
-        margin-right: 0;
-        min-height: 250px;
-        min-width: 300px;
-        background: #e2e7f4;
-        border-radius: 15px 0 0 15px;
-    }
-
-    .extended-tile-right {
-
-        position: relative;
-        display: inline-block;
-        float: left;
-        margin: 20px;
-        margin-left: -1px;
-        min-height: 250px;
-        min-width: 400px;
-        background: #e2e7f4;
-        border-radius: 0 15px 15px 0;
-    }
 }
 
-/*
-    For iPhone in portrait mode
-*/
-@media only screen
-    and (min-device-width : 320px)
-    and (max-device-width : 568px)
-    and (orientation : portrait) {
-
-    .tile {
-        position: relative;
-        display: inline-block;
-        float: left;
-        margin: 20px;
-        min-height: 250px;
-        min-width: 200px;
-        max-width: 200px;
-        background: #e2e7f4;
-        border-radius: 15px;
-    }
-
-    .extended-tile-left {
-
-        position: relative;
-        display: inline-block;
-        float: left;
-        margin: 20px;
-        margin-right: 0;
-        min-height: 250px;
-        min-width: 100px;
-        max-width: 100px;
-        background: #e2e7f4;
-        border-radius: 15px 0 0 15px;
-    }
-
-    .extended-tile-right {
-
-        position: relative;
-        display: inline-block;
-        float: left;
-        margin: 20px;
-        margin-left: -1px;
-        min-height: 250px;
-        min-width: 100px;
-        max-width: 100px;
-        background: #e2e7f4;
-        border-radius: 0 15px 15px 0;
-    }
-}
 
 /*
     For normal PC assuming base resolution of 1366x768
 */
-@media only screen
-    and (min-device-width : 1366px) {
+/*@media only screen*/
+    /*and (min-device-width : 1366px) {*/
 
-    .tile {
-        position: relative;
-        display: inline-block;
-        float: left;
-        margin: 20px;
-        min-height: 250px;
-        min-width: 300px;
-        max-width: 650px;
-        background: #e2e7f4;
-        border-radius: 15px;
-    }
+    /*.tile {*/
+        /*position: relative;*/
+        /*display: inline-block;*/
+        /*float: left;*/
+        /*margin: 20px;*/
+        /*min-height: 300px;*/
+        /*min-width: 620px;*/
+        /*max-width: 620px;*/
+        /*background: #e2e7f4;*/
+        /*border-radius: 15px;*/
+    /*}*/
 
-    .extended-tile-left {
+    /*.tile-small {*/
 
-        position: relative;
-        display: inline-block;
-        float: left;
-        margin: 20px;
-        margin-right: 0;
-        min-height: 250px;
-        min-width: 300px;
-        max-width: 300px;
-        background: #e2e7f4;
-        border-radius: 15px 0 0 15px;
-    }
-
-    .extended-tile-right {
-
-        position: relative;
-        display: inline-block;
-        float: left;
-        margin: 20px;
-        margin-left: -1px;
-        min-height: 250px;
-        min-width: 300px;
-        max-width: 300px;
-        background: #e2e7f4;
-        border-radius: 0 15px 15px 0;
-    }
-}
+        /*position: relative;*/
+        /*display: inline-block;*/
+        /*float: left;*/
+        /*margin: 20px;*/
+        /*min-height: 300px;*/
+        /*min-width: 290px;*/
+        /*max-width: 290px;*/
+        /*background: #e2e7f4;*/
+        /*border-radius: 15px;*/
+    /*}*/
+/*}*/
 
 
 .tile .text {

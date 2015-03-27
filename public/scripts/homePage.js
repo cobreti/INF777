@@ -10,7 +10,9 @@
             mapFrame.attr('height', mapTile.height());
         }
 
-        window.addEventListener('onrientationchange', updateMapFrame);
+        $(window).on('orientationchange', function() {
+            updateMapFrame();
+        });
 
         updateMapFrame();
     });
