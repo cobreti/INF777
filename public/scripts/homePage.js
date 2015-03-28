@@ -15,6 +15,12 @@
         });
 
         updateMapFrame();
+
+
+        var infoTileContent = $('.info-tile .info-content').clone();
+
+        var scheduleInfoContent = $('.schedule-tile .info-content-placeholder');
+        scheduleInfoContent.append(infoTileContent);
     });
 
 }());
