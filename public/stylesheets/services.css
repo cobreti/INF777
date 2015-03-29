@@ -2,7 +2,8 @@
 /* CSS Document */
 
 .services-tile {
-	/*width: 620px;*/
+	min-height: 200px;
+    height: 200px;
 }
 
 .service-block {
