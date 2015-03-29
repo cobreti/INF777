@@ -1,0 +1,29 @@
+.footer {
+
+    position: relative;
+    float: none;
+    display: block;
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+.footer img {
+
+    margin-left: 2em;
+    margin-right: 2em;
+    float: left;
+    cursor: pointer;
+}
+
+.float-separator:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.float-separator {
+    position: relative;
+    display: block;
+}
