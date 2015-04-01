@@ -1,3 +1,9 @@
+.homepage-tile {
+
+    min-height: 400px;
+    height: 300px;
+}
+
 .map-tile {
 
 }
@@ -105,7 +111,6 @@
 
 .schedule-tile {
 
-    height: 200px;
 }
 
 
@@ -130,7 +135,7 @@
     position: relative;
     display: block;
     left: 30px;
-    top :30px;
+    top :20px;
     max-width: 200px;
 }
 
@@ -200,6 +205,17 @@
         margin-right: 8em;
         margin-top: 1.5em;
     }
+}
+
+
+.schedule-tile h2 {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+
 }
 
 .schedule-tile .schedule table {
