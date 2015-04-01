@@ -28,6 +28,14 @@ body {
     min-width: 1024px;
 }
 
+.body-location .tiles-content {
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
 
 /*
     For iPad in landscape mode
