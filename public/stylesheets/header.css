@@ -54,6 +54,18 @@
 }
 
 
+.search-btn {
+    top: 10px;
+    position: relative;
+    background-image: url('../images/Search-icon.png');
+    background-size: 16px 16px;
+    background-position: contains;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+
 .header-body ul {
 
     position: absolute;
