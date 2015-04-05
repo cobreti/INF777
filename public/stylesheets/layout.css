@@ -140,3 +140,15 @@ body {
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
 }
+
+
+.external-link {
+
+    float: right;
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+    background-image: url("../images/External-Link.png");
+    background-size: contain;
+    background-position: center;
+}
