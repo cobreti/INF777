@@ -87,6 +87,13 @@
     font-size: 20px;
 }
 
+.rendez-vous-tile .content .rendez-vous-section .note {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
 .rendez-vous-tile .content p {
 
     font-family: 'Roboto', sans-serif;
