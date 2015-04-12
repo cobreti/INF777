@@ -78,6 +78,14 @@
     text-align: center;
 }
 
+.rendez-vous-tile .content .heading2 {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
 .rendez-vous-tile .content .rendez-vous-section {
 
     float: left;
@@ -120,6 +128,15 @@
 
 .schedule-tile {
 
+}
+
+.schedule-tile .heading2 {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1em;
 }
 
 
