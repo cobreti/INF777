@@ -20,10 +20,7 @@ app.use(cookieParser());
 
 
 app.use(express.static(path.join(__dirname, 'public'), {
-    extensions: ['html', 'htm'],
-    setHeaders: function(res, path, stat) {
-        res.set({'content-type': 'text/html; charset='});
-    }
+    extensions: ['html', 'htm']
 }));
 
 
