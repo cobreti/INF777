@@ -298,3 +298,7 @@
     background-position: center;
     background-size: contain;
 }
+
+.nowrap {
+    white-space: nowrap;
+}
